@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Prompt:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+     background-color:rgba(235, 235, 244,0.4);
+    z-index: 100;
+}
+
+#navbar h5{
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+#navbar button{
+    background-color: blueviolet;
+    color: #fff;
+}
+#navbar button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar .navbar-brand{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#navbar ul li{
+    border-bottom: 2px solid transparent;
+    padding: 0 15px;
+}
+#navbar ul li:hover{
+    border-bottom: 2px solid blueviolet;
+    transition: 0.5s;
+}
+/* navbar ends */
+#main{ 
+    width: 100%;
+    min-height:100vh ;
+    
+}
+#main h1{
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 600;
+}
+#main p{
+    margin-top: 20px;
+    font-weight: lighter;
+    font-size: 12px;
+    padding: 10px;
+}
+#google-img{
+    margin-top: 20px;
+}
+#down-img{
+    width: 200px;
+    height: 100px;
+}
+#mobile{
+    margin-top: 180px;
+    margin-left: 50px;
+}
+#all{
+    margin-top: 180px;
+}
+/* main ends */
+#features{
+    padding: 20px;
+    background-color:rgb(237, 236, 246);
+}
+#features h1{
+    text-align: center;
+    padding: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+#features p{
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+#features .card{
+   padding: 10px;
+    border: none;
+}
+
+#features .card-body p{
+    padding: 10px 5px;
+}
+#features .card i{
+    font-size: 50px;
+    color: blueviolet;
+    margin: 20px auto;
+    text-align: center;
+}
+#features .card .btn{
+    font-size: 40px;
+    color: blueviolet;
+    padding: 10px;
+    
+}
+#features .card-title{
+    font-weight: bold;
+    font-size: 25px;
+}
+/* feature end */
+#easy{
+    padding: 20px;
+}
+#easy img{
+    height: 400px;
+}
+#easy h1{
+    font-size: 50px;
+    padding: 20px 0;
+}
+#easy p{
+    font-size: 12px;
+}
+#easy h2{
+    font-size: 30px;
+    padding-top: 10px; 
+}
+#easy button{
+    background-color: blueviolet;
+    color: #fff;
+    margin-top: 30px;
+}
+/* easy end */
+#check{
+    background-color:rgb(237, 236, 246);
+    text-align: center;
+    padding-top: 30px;
+}
+#check h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+#check p{
+    font-size: 12px;
+}
+#check .card{
+    margin-top: 50px;
+    border:none ;
+}
+#check .card img{
+    padding: 10px;
+}
+/* check ends */
+#account{
+    padding: 25px;
+}
+#account h1{
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+#account form{
+     margin-left: 30%;
+    padding: 15px;
+}
+#account form input{
+    width: 60%;
+    border: 1px solid blueviolet;
+   border-radius: 5px;
+}
+#account form button{
+  background-color: blueviolet;
+  color: #fff;
+}
+#account .form-check input{
+    width: 20px;
+}
+#trail{
+    height: 400px;
+    background-color:rgb(237, 236, 246);
+    text-align: center;
+   padding-top: 70px;
+}
+#trail h1{
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+#trail p{
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+#trail button{
+    background-color: blueviolet;
+    color: #fff;
+    padding: 10px 20px;
+}
+/* trail ends */
+.footer{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer h4{
+    color: #fff;
+    text-align: center;
+   
+}
+.footer p{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+.footer i{
+    color: #fff;
+    margin-left: 50%;
+    font-size: 25px;
+   padding-top: 10px;
+}
